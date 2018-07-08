@@ -1,0 +1,32 @@
+{
+    "name": "zs/administration",
+    "description": "Zs's Administration Module.",
+    "type": "zs-module",
+    "keywords": ["zs", "cms", "administration", "extension"],
+    "homepage": "https://zhuiso.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "showkw",
+            "email": "showkw@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zs\\Administration\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zs\\Administration\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "twilroad/linfo": "^3.0"
+    },
+    "require-dev": {
+        "zs/installers": "0.14.*",
+        "phpunit/phpunit": "~6.0"
+    }
+}

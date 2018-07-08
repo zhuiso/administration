@@ -1,0 +1,12 @@
+name: 后台管理
+identification: zs/administration
+description: 'Zs 后台管理模块'
+authors:
+    -
+        name: showkw
+        email: showkw@163.com
+version: 0.1.0
+csrf:
+    - 'admin*'
+    - 'api*'
+    - 'editor*'
