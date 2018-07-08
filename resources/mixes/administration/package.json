@@ -1,8 +1,8 @@
 {
     "name": "zs-administration",
     "version": "1.4.1",
-    "description": "Next administration.",
-    "author": "twilroad <heshudong@ibenchu.com>",
+    "description": "zs administration.",
+    "author": "showkw <showkw@163.com>",
     "private": true,
     "scripts": {
         "dev": "node build/dev-server.js",
